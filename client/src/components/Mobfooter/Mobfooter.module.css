@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.footercontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  padding: 10px 18px 18px 18px;
+  border: 1px solid #c8c8c8;
+  position: fixed;
+  bottom: 0px;
+  background-color: black;
+}
+.top,
+.mid,
+.bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+}
+.top img :nth-child(1) {
+  color: red;
+}
+.top img :nth-child(2) {
+  color: red;
+}
+.top p,
+.mid p,
+.bottom p {
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 11px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+}
+.fotimg {
+  width: 25px;
+  height: 25px;
+}
+.cartnum {
+  bottom: 52px;
+  position: fixed;
+  z-index: 200;
+  color: #f08804;
+  margin-left: 10px;
+  font-weight: 700;
+  font-family: inherit;
+  font-size: 17px;
+}
+@media only screen and (min-device-width: 480px) {
+  .footercontainer {
+    display: none;
+  }
+}

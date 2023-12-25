@@ -1,0 +1,8 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Dangrek&family=Inconsolata&family=Inter&family=Roboto&family=Single+Day&family=Space+Mono&display=swap");
+* {
+  box-sizing: border-box;
+}

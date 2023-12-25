@@ -1,0 +1,187 @@
+.header {
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px;
+  background-color: black;
+}
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  width: 136px;
+}
+.logoname {
+  margin-left: 8px;
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  margin-right: 20px;
+}
+.address {
+  display: flex;
+}
+.address img {
+  width: 20px;
+  height: 20px;
+  margin-top: 18px;
+}
+.address:hover {
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  border-radius: 9px;
+  background-color: #f1f3f4;
+  border: 3px solid #bca7a7;
+}
+.search img {
+  width: 30px;
+  margin: 0px 10px;
+  background: transparent;
+}
+.serachinput {
+  width: 500px;
+  height: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  font-family: Google Sans, Roboto, Helvetica, Arial, sans-serif;
+  text-align: left;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 0px 16px;
+}
+.h5 {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+  cursor: pointer;
+}
+.cartnum {
+  top: 2px;
+  position: fixed;
+  color: #f08804;
+  margin-left: 8px;
+  font-weight: 700;
+  font-family: inherit;
+  font-size: 17px;
+}
+.viewcart_btn {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  border-radius: 21px;
+  padding: 8px 20px;
+  cursor: pointer;
+  margin-right: 30px;
+}
+.viewcart_btn button {
+  margin-left: 5px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  background-color: black;
+  border: none;
+}
+.bottom {
+  margin: 0px 20px;
+}
+.login_btn,
+.sign_btn,
+.logout_btn {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+  margin: 0px 10px;
+}
+.top {
+  display: flex;
+  align-items: center;
+}
+.top p {
+  margin-left: 10px;
+}
+p {
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+.snav {
+  display: flex;
+  align-items: center;
+  height: 39px;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 20px;
+  z-index: 199;
+  background-color: hsl(0deg 1% 13.41%);
+}
+.navtop img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.topheading {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.topheading p {
+  margin: 0px 10px;
+  cursor: pointer;
+}
+.navads {
+  margin-right: 40px;
+  cursor: pointer;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .snav,
+  .address,
+  .viewcart_btn,
+  .bottom {
+    display: none;
+  }
+  .header {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .serachinput {
+    width: 270px;
+  }
+}

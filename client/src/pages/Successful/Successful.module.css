@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.subheader {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 45px;
+}
+.midcontainer {
+  display: flex;
+  gap: 0.2rem;
+  width: 50vw;
+  margin: 40px auto;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 23px;
+  border: 3px solid #e3e3e3;
+  box-shadow: 14px 16px 23px 2px #0000001c;
+}
+.midcontainer img {
+  width: "120px";
+  height: "120px";
+  margin-top: "10px";
+}
+.h2 {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #067d62;
+  margin-top: 20px;
+}
+.h3 {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 5px;
+  color: #969696;
+}
+.goback_btn {
+  margin: 35px 0px;
+  font-family: Roboto;
+  font-size: 18px;
+  width: 22vw;
+  padding: 5px 15px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+  min-height: 42px;
+  border-radius: 8px;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+}
+.footer {
+  width: 100vw;
+  height: 61px;
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  padding-top: 18px;
+  background-color: #2e0052;
+}
+.footer p {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .header {
+    display: none;
+  }
+  .subheader {
+    margin-left: 0px;
+  }
+  .midcontainer {
+    width: 90vw;
+    margin: 80px auto;
+  }
+  .midcontainer img {
+    width: 80px;
+    height: 80px;
+  }
+  .h2 {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .h3 {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .goback_btn {
+    width: 75vw;
+    min-height: 38px;
+    font-size: 16px;
+    margin: 20px 0px;
+  }
+  .footer {
+    display: none;
+  }
+  .search {
+    display: none;
+  }
+}

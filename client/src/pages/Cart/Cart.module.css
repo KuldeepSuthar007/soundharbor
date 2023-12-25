@@ -1,0 +1,376 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px 0px 25px 40px;
+}
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  width: 45px;
+  height: 45px;
+}
+.logoname {
+  margin-left: 8px;
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2e0052;
+  margin-right: 20px;
+}
+.h5 {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+}
+.viewcart_btn {
+  display: flex;
+  align-items: center;
+  background-color: #1d7000;
+  border-radius: 21px;
+  padding: 8px 40px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.viewcart_btn button {
+  font-family: Roboto;
+  margin-left: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  background-color: #1d7000;
+  border: none;
+}
+.back_btn {
+  display: flex;
+  margin-left: 40px;
+}
+
+.back_btn button {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+  background-color: #ffa41c;
+  border: none;
+  border-radius: 25px;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+.Arrback_btn {
+  display: none;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.heading p {
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-left: 10px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+}
+.cart2 {
+  width: 250px;
+  height: 120px;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+}
+.cart2 img {
+  width: 180px;
+  height: 180px;
+}
+.h3 {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  margin: 20px auto;
+  text-align: center;
+  color: black;
+}
+.midcontainer {
+  display: flex;
+  margin: 20px 0px 0px 45px;
+}
+
+.leftsection_top {
+  display: flex;
+  gap: 2rem;
+}
+.leftsection_top img {
+  width: 200px;
+  height: 200px;
+}
+.left_top_right {
+  display: flex;
+  gap: 2rem;
+}
+
+.title_color_stock p:nth-child(1) {
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+}
+.title_color_stock p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #a2a2a2;
+}
+
+.price p:nth-child(1),
+.quantity p:nth-child(1),
+.total p:nth-child(1) {
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: black;
+}
+.price p:nth-child(2),
+.quantity p:nth-child(2),
+.total p:nth-child(2) {
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+}
+.leftsection_bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
+.removebtn button {
+  background: transparent;
+  color: black;
+  cursor: pointer;
+  border: none;
+  text-decoration: underline;
+}
+.leftsection_bottom p {
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+}
+.placeorder {
+  display: flex;
+  width: 75vw;
+  justify-content: flex-end;
+  margin: 20px auto;
+  margin-bottom: 104px;
+}
+.placeorder button {
+  height: 45px;
+  padding: 0px 50px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: black;
+  background-color: #ffd814;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.rightsection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 10px;
+  box-sizing: border-box;
+}
+.rigth_top div,
+.right_bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.rigth_top p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+  margin-top: 10px;
+}
+.rigth_top div p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+}
+
+.right_bottom p {
+  margin-bottom: 0px;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+}
+.footer {
+  width: 100vw;
+  height: 61px;
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  padding-top: 18px;
+  background-color: #2e0052;
+}
+.footer p {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .nav,
+  .back_btn,
+  .heading,
+  .footer {
+    display: none;
+  }
+  .midcontainer,
+  .left_top_right {
+    flex-direction: column;
+    margin: 0px;
+    padding: 15px;
+    gap: 0rem;
+  }
+  .Arrback_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin: 10px 0px 0px 10px;
+    color: white;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0px 1px 4px 0px #00000054;
+  }
+  .Arrback_btn img {
+    width: 20px;
+    height: 16x;
+  }
+  .leftsection_top {
+    background-color: #dbdbdb;
+    padding: 10px;
+    gap: 0.4rem;
+  }
+  .leftsection_top img {
+    width: 150px;
+    height: 150px;
+  }
+  .title_color_stock p {
+    color: black;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .total p:nth-child(1),
+  .quantity p:nth-child(1) {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .title_color_stock p:nth-child(1) {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .total p:nth-child(2),
+  .quantity p:nth-child(2) {
+    font-size: 16px;
+  }
+  .price p:nth-child(1) {
+    display: none;
+  }
+  .price p:nth-child(2) {
+    color: black;
+    font-weight: 600;
+  }
+  .total,
+  .quantity {
+    display: flex;
+    justify-content: space-between;
+  }
+  .rigth_top div p {
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 3px;
+  }
+  .right_bottom p {
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 8px;
+  }
+  .placeorder {
+    justify-content: center;
+    margin-bottom: 84px;
+  }
+  .placeorder button {
+    font-size: 16px;
+  }
+  hr {
+    display: none;
+  }
+}

@@ -1,0 +1,93 @@
+.listcard {
+  display: flex;
+  gap: 0.6rem;
+  box-sizing: border-box;
+  color: black;
+  width: 90vw;
+  margin: 0px auto;
+}
+.cardimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 230px;
+  width: 230px;
+  height: 230px;
+  border: 1px solid #e0e0e0;
+}
+.cardimg:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.productimg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 185px;
+  height: 185px;
+  background-color: white;
+}
+.productimg img {
+  width: 180px;
+  height: 180px;
+}
+.carddetail {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-top: 20px;
+  margin-left: 18px;
+}
+.cartlogo {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin-left: 180px;
+  margin-top: 180px;
+  cursor: pointer;
+}
+.cardtitle {
+  font-family: Roboto;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+}
+.cardprice,
+.color,
+.title {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+}
+
+.detail_btn {
+  margin-top: 10px;
+}
+
+.detail_btn button {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  background-color: #ff9900;
+  border-radius: 18px;
+  border: none;
+  padding: 4px 20px;
+  cursor: pointer;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .listcard {
+    display: none;
+  }
+}

@@ -1,0 +1,40 @@
+.top {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px; */
+  display: none;
+}
+.logo {
+  width: 77px;
+  height: 39px;
+}
+.logoname {
+  margin-left: 8px;
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .top {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-color: black;
+    margin-top: 0px;
+  }
+  .logo {
+    width: 115px;
+    height: 35px;
+    margin: 10px;
+  }
+  .logoname {
+    font-size: 22px;
+    color: white;
+  }
+}
